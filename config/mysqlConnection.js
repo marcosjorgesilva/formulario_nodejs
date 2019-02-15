@@ -9,7 +9,6 @@ var connMysql = function(){
     });
 }
 module.exports = function(){
-    console.log('Conexao com o MySql realizada!');
     return connMysql;
 }
 
